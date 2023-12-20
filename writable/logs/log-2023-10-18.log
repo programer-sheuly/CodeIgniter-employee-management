@@ -1,0 +1,725 @@
+CRITICAL - 2023-10-18 05:07:09 --> Class "Config\AuthGuard" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('AdminDashboard', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 05:07:53 --> Class "CodeIgniter\Filters\AuthGuard" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('AdminDashboard', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 05:08:21 --> "AuthGuard" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 05:08:22 --> "AuthGuard" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 05:08:35 --> Class "CodeIgniter\Filters\AuthGuard" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('AdminDashboard', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 05:08:36 --> Class "CodeIgniter\Filters\AuthGuard" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('AdminDashboard', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 05:19:18 --> Undefined array key "staff_name"
+in APPPATH\Views\backend\staff\viewStaff.php on line 27.
+ 1 APPPATH\Views\backend\staff\viewStaff.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff_name"', 'E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\backend\\staff\\viewStaff.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\backend\\staff\\viewStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/viewStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(16): view('backend/staff/viewStaff', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 05:19:37 --> Undefined array key "staff_name"
+in APPPATH\Views\backend\staff\viewStaff.php on line 27.
+ 1 APPPATH\Views\backend\staff\viewStaff.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff_name"', 'E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\backend\\staff\\viewStaff.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\backend\\staff\\viewStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/viewStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(16): view('backend/staff/viewStaff', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 05:59:21 --> Undefined array key "staff_name"
+in APPPATH\Views\backend\staff\viewStaff.php on line 27.
+ 1 APPPATH\Views\backend\staff\viewStaff.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff_name"', 'E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\backend\\staff\\viewStaff.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\backend\\staff\\viewStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/viewStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(16): view('backend/staff/viewStaff', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 05:59:35 --> Undefined array key "staff_name"
+in APPPATH\Views\backend\staff\viewStaff.php on line 27.
+ 1 APPPATH\Views\backend\staff\viewStaff.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff_name"', 'E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\backend\\staff\\viewStaff.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\backend\\staff\\viewStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/viewStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(16): view('backend/staff/viewStaff', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:13:38 --> Class "App\Controllers\ProductModel" not found
+in APPPATH\Controllers\AdminDashboard.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:15:59 --> Class "App\Controllers\ProductModel" not found
+in APPPATH\Controllers\AdminDashboard.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:18:49 --> Class "App\Controllers\ProductModel" not found
+in APPPATH\Controllers\AdminDashboard.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:22:41 --> Class "App\Controllers\ProductModel" not found
+in APPPATH\Controllers\AdminDashboard.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:34:30 --> Call to undefined method App\Models\DepartmentModel::countResultAll
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\AdminDashboard.php(12): CodeIgniter\Model->__call('countResultAll', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:36:05 --> Call to undefined method App\Models\DepartmentModel::count_all_results
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\AdminDashboard.php(12): CodeIgniter\Model->__call('count_all_results', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:36:49 --> Call to undefined method App\Models\DepartmentModel::count_all_results
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\AdminDashboard.php(12): CodeIgniter\Model->__call('count_all_results', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:36:50 --> Call to undefined method App\Models\DepartmentModel::count_all_results
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\AdminDashboard.php(12): CodeIgniter\Model->__call('count_all_results', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:36:51 --> Call to undefined method App\Models\DepartmentModel::count_all_results
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\AdminDashboard.php(12): CodeIgniter\Model->__call('count_all_results', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:36:51 --> Call to undefined method App\Models\DepartmentModel::count_all_results
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\AdminDashboard.php(12): CodeIgniter\Model->__call('count_all_results', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:36:51 --> Call to undefined method App\Models\DepartmentModel::count_all_results
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\AdminDashboard.php(12): CodeIgniter\Model->__call('count_all_results', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:36:51 --> Call to undefined method App\Models\DepartmentModel::count_all_results
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\AdminDashboard.php(12): CodeIgniter\Model->__call('count_all_results', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:36:51 --> Call to undefined method App\Models\DepartmentModel::count_all_results
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\AdminDashboard.php(12): CodeIgniter\Model->__call('count_all_results', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:36:52 --> Call to undefined method App\Models\DepartmentModel::count_all_results
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\AdminDashboard.php(12): CodeIgniter\Model->__call('count_all_results', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:36:52 --> Call to undefined method App\Models\DepartmentModel::count_all_results
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\AdminDashboard.php(12): CodeIgniter\Model->__call('count_all_results', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:36:52 --> Call to undefined method App\Models\DepartmentModel::count_all_results
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\AdminDashboard.php(12): CodeIgniter\Model->__call('count_all_results', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:39:33 --> Value of type int is not callable
+in APPPATH\Controllers\AdminDashboard.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:39:34 --> Value of type int is not callable
+in APPPATH\Controllers\AdminDashboard.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:39:34 --> Value of type int is not callable
+in APPPATH\Controllers\AdminDashboard.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:39:34 --> Value of type int is not callable
+in APPPATH\Controllers\AdminDashboard.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:42:32 --> Undefined variable $depCount
+in APPPATH\Views\AdminDashboard.php on line 64.
+ 1 APPPATH\Views\AdminDashboard.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $depCount', 'E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\AdminDashboard.php', 64)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminDashboard.php(22): view('AdminDashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:43:41 --> Undefined variable $depCount
+in APPPATH\Views\AdminDashboard.php on line 64.
+ 1 APPPATH\Views\AdminDashboard.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $depCount', 'E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\AdminDashboard.php', 64)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminDashboard.php(22): view('AdminDashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:43:43 --> Undefined variable $depCount
+in APPPATH\Views\AdminDashboard.php on line 64.
+ 1 APPPATH\Views\AdminDashboard.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $depCount', 'E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\AdminDashboard.php', 64)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminDashboard.php(22): view('AdminDashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:47:34 --> Undefined array key "staff_name"
+in APPPATH\Views\backend\staff\viewStaff.php on line 27.
+ 1 APPPATH\Views\backend\staff\viewStaff.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "staff_name"', 'E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\backend\\staff\\viewStaff.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\backend\\staff\\viewStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/viewStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(16): view('backend/staff/viewStaff', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:52:08 --> Undefined array key "image"
+in APPPATH\Views\backend\staff\viewStaff.php on line 29.
+ 1 APPPATH\Views\backend\staff\viewStaff.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\backend\\staff\\viewStaff.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\backend\\staff\\viewStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/viewStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(16): view('backend/staff/viewStaff', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:55:47 --> Undefined array key "image"
+in APPPATH\Views\backend\staff\viewStaff.php on line 29.
+ 1 APPPATH\Views\backend\staff\viewStaff.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\backend\\staff\\viewStaff.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\backend\\staff\\viewStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/viewStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(16): view('backend/staff/viewStaff', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:55:48 --> Undefined array key "image"
+in APPPATH\Views\backend\staff\viewStaff.php on line 29.
+ 1 APPPATH\Views\backend\staff\viewStaff.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\backend\\staff\\viewStaff.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\backend\\staff\\viewStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/viewStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(16): view('backend/staff/viewStaff', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 06:55:48 --> Undefined array key "image"
+in APPPATH\Views\backend\staff\viewStaff.php on line 29.
+ 1 APPPATH\Views\backend\staff\viewStaff.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\backend\\staff\\viewStaff.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\app\\Views\\backend\\staff\\viewStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/viewStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(16): view('backend/staff/viewStaff', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\rak-ahsan-file\\CodeIgniter4-4.3.6\\public\\index.php')
+CRITICAL - 2023-10-18 13:01:55 --> Class "App\Models\StaffModel" not found
+in APPPATH\Controllers\StaffController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 13:02:01 --> Class "App\Models\StaffModel" not found
+in APPPATH\Controllers\StaffController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 13:12:15 --> Undefined variable $staff
+in APPPATH\Views\backend\staff\addStaff.php on line 15.
+ 1 APPPATH\Views\backend\staff\addStaff.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staff', 'D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/addStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(34): view('backend/staff/addStaff')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 13:13:59 --> Undefined variable $staff
+in APPPATH\Views\backend\staff\addStaff.php on line 15.
+ 1 APPPATH\Views\backend\staff\addStaff.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staff', 'D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/addStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(34): view('backend/staff/addStaff')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 13:15:29 --> Undefined variable $staff
+in APPPATH\Views\backend\staff\addStaff.php on line 15.
+ 1 APPPATH\Views\backend\staff\addStaff.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staff', 'D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/addStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(34): view('backend/staff/addStaff')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 13:15:33 --> Undefined variable $staff
+in APPPATH\Views\backend\staff\addStaff.php on line 15.
+ 1 APPPATH\Views\backend\staff\addStaff.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staff', 'D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/addStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(34): view('backend/staff/addStaff')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 13:15:34 --> Undefined variable $staff
+in APPPATH\Views\backend\staff\addStaff.php on line 15.
+ 1 APPPATH\Views\backend\staff\addStaff.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staff', 'D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/addStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(34): view('backend/staff/addStaff')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 13:19:43 --> Undefined variable $staff
+in APPPATH\Views\backend\staff\addStaff.php on line 15.
+ 1 APPPATH\Views\backend\staff\addStaff.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staff', 'D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/addStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(34): view('backend/staff/addStaff')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 13:19:46 --> Undefined variable $staff
+in APPPATH\Views\backend\staff\addStaff.php on line 15.
+ 1 APPPATH\Views\backend\staff\addStaff.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staff', 'D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/addStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(34): view('backend/staff/addStaff')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 13:20:52 --> Undefined variable $sheuly
+in APPPATH\Views\backend\staff\addStaff.php on line 15.
+ 1 APPPATH\Views\backend\staff\addStaff.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sheuly', 'D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/addStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(34): view('backend/staff/addStaff')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 13:41:02 --> Undefined variable $sheuly
+in APPPATH\Views\backend\staff\addStaff.php on line 15.
+ 1 APPPATH\Views\backend\staff\addStaff.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sheuly', 'D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/addStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(34): view('backend/staff/addStaff')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 13:43:04 --> Class "App\Models\leaveModel" not found
+in APPPATH\Controllers\LeaveController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\LeaveController->addLeave()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LeaveController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 13:51:27 --> Undefined variable $sheuly
+in APPPATH\Views\backend\staff\addStaff.php on line 15.
+ 1 APPPATH\Views\backend\staff\addStaff.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sheuly', 'D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/addStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(34): view('backend/staff/addStaff')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 13:53:12 --> Undefined variable $sheuly
+in APPPATH\Views\backend\staff\addStaff.php on line 15.
+ 1 APPPATH\Views\backend\staff\addStaff.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sheuly', 'D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/addStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(34): view('backend/staff/addStaff')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 13:56:45 --> Undefined variable $sheuly
+in APPPATH\Views\backend\staff\addStaff.php on line 15.
+ 1 APPPATH\Views\backend\staff\addStaff.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sheuly', 'D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/addStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(34): view('backend/staff/addStaff')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 13:56:47 --> Undefined variable $sheuly
+in APPPATH\Views\backend\staff\addStaff.php on line 15.
+ 1 APPPATH\Views\backend\staff\addStaff.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sheuly', 'D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/addStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(34): view('backend/staff/addStaff')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 13:56:49 --> Undefined variable $sheuly
+in APPPATH\Views\backend\staff\addStaff.php on line 15.
+ 1 APPPATH\Views\backend\staff\addStaff.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sheuly', 'D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/addStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(34): view('backend/staff/addStaff')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 14:04:52 --> Undefined variable $sheuly
+in APPPATH\Views\backend\staff\addStaff.php on line 19.
+ 1 APPPATH\Views\backend\staff\addStaff.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sheuly', 'D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\addStaff.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend/staff/addStaff', [], true)
+ 5 APPPATH\Controllers\StaffController.php(34): view('backend/staff/addStaff')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 17:21:11 --> Undefined property: App\Controllers\AdminDashboard::$db
+in APPPATH\Controllers\AdminDashboard.php on line 29.
+ 1 APPPATH\Controllers\AdminDashboard.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminDashboard::$db', 'D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Controllers\\AdminDashboard.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 17:26:40 --> Call to undefined method App\Models\SalaryModel::select_sum
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\AdminDashboard.php(32): CodeIgniter\Model->__call('select_sum', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+ERROR - 2023-10-18 17:29:44 --> mysqli_sql_exception: Unknown column 'basic_salary.allowance' in 'field list' in D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT sum(basi...', 0)
+#1 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(basi...')
+#2 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(basi...')
+#3 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT sum(basi...', Array, false)
+#4 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\app\Controllers\AdminDashboard.php(30): CodeIgniter\BaseModel->first()
+#7 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+#8 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+#9 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs...')
+#12 {main}
+CRITICAL - 2023-10-18 17:29:44 --> Unknown column 'basic_salary.allowance' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT sum(basic_salary.allowance) as total
+FROM `salary`
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(basic_salary.allowance) as total
+FROM `salary`
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(basic_salary.allowance) as total
+FROM `salary`
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT sum(basic_salary.allowance) as total
+FROM `salary`
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AdminDashboard.php(30): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 17:34:48 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminDashboard.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 17:46:30 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$sum
+in APPPATH\Controllers\AdminDashboard.php on line 30.
+ 1 APPPATH\Controllers\AdminDashboard.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$sum', 'D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Controllers\\AdminDashboard.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 17:47:17 --> Call to undefined method App\Models\SalaryModel::getrow
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\AdminDashboard.php(30): CodeIgniter\Model->__call('getrow', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 18:03:01 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Views\AdminDashboard.php on line 119.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AdminDashboard', [], true)
+ 4 APPPATH\Controllers\AdminDashboard.php(43): view('AdminDashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 18:03:46 --> Array to string conversion
+in APPPATH\Views\AdminDashboard.php on line 119.
+ 1 APPPATH\Views\AdminDashboard.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\AdminDashboard.php', 119)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminDashboard.php(43): view('AdminDashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 18:04:06 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\AdminDashboard.php on line 119.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AdminDashboard', [], true)
+ 4 APPPATH\Controllers\AdminDashboard.php(43): view('AdminDashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 18:04:09 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\AdminDashboard.php on line 119.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AdminDashboard', [], true)
+ 4 APPPATH\Controllers\AdminDashboard.php(43): view('AdminDashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 18:04:12 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\AdminDashboard.php on line 119.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AdminDashboard', [], true)
+ 4 APPPATH\Controllers\AdminDashboard.php(43): view('AdminDashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 18:05:24 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Views\AdminDashboard.php on line 119.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AdminDashboard', [], true)
+ 4 APPPATH\Controllers\AdminDashboard.php(43): view('AdminDashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 18:05:25 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Views\AdminDashboard.php on line 119.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('AdminDashboard', [], true)
+ 4 APPPATH\Controllers\AdminDashboard.php(43): view('AdminDashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 18:05:44 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\AdminDashboard.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 18:06:22 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\AdminDashboard.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 18:30:03 --> Undefined variable $query
+in APPPATH\Controllers\AdminDashboard.php on line 33.
+ 1 APPPATH\Controllers\AdminDashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\app\\Controllers\\AdminDashboard.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 18:30:33 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminDashboard.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-18 18:30:35 --> Cannot access offset of type string on string
+in APPPATH\Controllers\AdminDashboard.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminDashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')

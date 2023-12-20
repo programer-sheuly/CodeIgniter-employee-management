@@ -1,0 +1,324 @@
+ERROR - 2023-10-19 00:20:58 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'employee', 3306, '', 0)
+#1 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\app\Controllers\Login.php(21): CodeIgniter\BaseModel->first()
+#7 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(932): App\Controllers\Login->loginAuth()
+#8 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\app\Controllers\Login.php(21): CodeIgniter\BaseModel->first()
+#6 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(932): App\Controllers\Login->loginAuth()
+#7 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-19 00:20:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `u_email` = :u_email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(21): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+ERROR - 2023-10-19 00:21:02 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'employee', 3306, '', 0)
+#1 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\app\Controllers\Login.php(21): CodeIgniter\BaseModel->first()
+#7 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(932): App\Controllers\Login->loginAuth()
+#8 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\app\Controllers\Login.php(21): CodeIgniter\BaseModel->first()
+#6 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(932): App\Controllers\Login->loginAuth()
+#7 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\XAMPP\htdocs\Codeigniter\Mam-file\CodeIgniter-employee-management\system\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-19 00:21:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `u_email` = :u_email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(21): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\XAMPP\\htdocs\\Codeigniter\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+ERROR - 2023-10-19 03:02:46 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'employee', 3306, '', 0)
+#1 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\app\Controllers\Login.php(21): CodeIgniter\BaseModel->first()
+#7 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(932): App\Controllers\Login->loginAuth()
+#8 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\app\Controllers\Login.php(21): CodeIgniter\BaseModel->first()
+#6 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(932): App\Controllers\Login->loginAuth()
+#7 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-19 03:02:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `u_email` = :u_email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(21): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+ERROR - 2023-10-19 03:02:51 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'employee', 3306, '', 0)
+#1 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\app\Controllers\Login.php(21): CodeIgniter\BaseModel->first()
+#7 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(932): App\Controllers\Login->loginAuth()
+#8 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\app\Controllers\Login.php(21): CodeIgniter\BaseModel->first()
+#6 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(932): App\Controllers\Login->loginAuth()
+#7 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp\htdocs\Codeignitor\Mam-file\CodeIgniter-employee-management\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-19 03:02:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `u_email` = :u_email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(21): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-19 05:07:55 --> Undefined variable $book
+in APPPATH\Views\backend\staff\print.php on line 23.
+ 1 APPPATH\Views\backend\staff\print.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $book', 'E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\print.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\staff\\print.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend\\staff\\print', [], true)
+ 5 APPPATH\Controllers\StaffController.php(72): view('backend\\staff\\print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->singleprint('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-19 05:49:47 --> Invalid file: "backend\staff\print.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend\\staff\\print.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend\\staff\\print', [], true)
+ 3 APPPATH\Controllers\SalaryController.php(78): view('backend\\staff\\print', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalaryController->singleprint('2')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalaryController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-19 05:50:24 --> Undefined array key "status"
+in APPPATH\Views\backend\salary\print.php on line 66.
+ 1 APPPATH\Views\backend\salary\print.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\salary\\print.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\app\\Views\\backend\\salary\\print.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend\\salary\\print', [], true)
+ 5 APPPATH\Controllers\SalaryController.php(78): view('backend\\salary\\print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalaryController->singleprint('2')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalaryController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-19 06:21:40 --> Undefined variable $imageName
+in APPPATH\Controllers\StaffController.php on line 55.
+ 1 APPPATH\Controllers\StaffController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\app\\Controllers\\StaffController.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-19 06:29:56 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\StaffController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-19 06:37:50 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\StaffController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-19 06:44:37 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\StaffController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-19 06:47:52 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\StaffController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-19 06:49:40 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\StaffController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-19 06:50:34 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\StaffController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-19 06:51:54 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\StaffController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-19 06:51:57 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\StaffController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-19 06:53:04 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\StaffController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-19 06:54:20 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\StaffController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\StaffController->adduser()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StaffController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-19 07:37:49 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\SalaryController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalaryController->update('7')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalaryController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-19 07:38:43 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\SalaryController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalaryController->update('7')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalaryController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-19 07:38:48 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\SalaryController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalaryController->update('7')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalaryController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
+CRITICAL - 2023-10-19 07:39:24 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\SalaryController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\SalaryController->update('7')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalaryController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeignitor\\Mam-file\\CodeIgniter-employee-management\\public\\index.php')
